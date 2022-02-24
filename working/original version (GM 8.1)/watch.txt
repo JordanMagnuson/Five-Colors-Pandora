@@ -1,0 +1,4 @@
+oRoom05Foreground.image_alpha
+oRoom05Foreground.depth
+oRoom05Midground.image_alpha
+oRoom05Midground.depth

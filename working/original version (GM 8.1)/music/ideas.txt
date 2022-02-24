@@ -1,0 +1,7 @@
+music: http://ccmixter.org/api/query?t=upload_histogram&ids=20848
+
+sound for color room:
+http://www.freesound.org/samplesViewSingle.php?id=39222
+
+credits music:
+http://www.freesound.org/samplesViewSingle.php?id=33837

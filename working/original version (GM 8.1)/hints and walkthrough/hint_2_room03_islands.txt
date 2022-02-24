@@ -1,0 +1,3 @@
+If you're stuck on the third level (islands with water), try 
+pressing "X" on your keyboard. This is the only other control used 
+in the game (besides those mentioned in the readme). 
