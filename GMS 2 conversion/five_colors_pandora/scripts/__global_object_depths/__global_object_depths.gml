@@ -1,0 +1,181 @@
+function __global_object_depths() {
+	// Initialise the global array that allows the lookup of the depth of a given object
+	// GM2.0 does not have a depth on objects so on import from 1.x a global array is created
+	// NOTE: MacroExpansion is used to insert the array initialisation at import time
+	gml_pragma( "global", "__global_object_depths()");
+
+	// insert the generated arrays here
+	global.__objectDepths[0] = 0; // oRoom01
+	global.__objectDepths[1] = 0; // oRoom01D
+	global.__objectDepths[2] = 0; // oRoom01Foreground
+	global.__objectDepths[3] = 0; // oRoom01Midground
+	global.__objectDepths[4] = 0; // oRoom01ForegroundD
+	global.__objectDepths[5] = 0; // oRoom01MidgroundD
+	global.__objectDepths[6] = 0; // oRoom02
+	global.__objectDepths[7] = 0; // oRoom02D
+	global.__objectDepths[8] = 0; // oRoom02Foreground
+	global.__objectDepths[9] = 0; // oRoom02Midground
+	global.__objectDepths[10] = 1; // oRoom02ForegroundD
+	global.__objectDepths[11] = 1; // oRoom02MidgroundD
+	global.__objectDepths[12] = 0; // oRoom03
+	global.__objectDepths[13] = 0; // oRoom03D
+	global.__objectDepths[14] = 0; // oRoom03Foreground
+	global.__objectDepths[15] = 0; // oRoom03Foreground2
+	global.__objectDepths[16] = 0; // oRoom03Midground
+	global.__objectDepths[17] = 0; // oRoom03Midground2
+	global.__objectDepths[18] = 1; // oRoom03ForegroundD
+	global.__objectDepths[19] = 1; // oRoom03ForegroundD2
+	global.__objectDepths[20] = 1; // oRoom03MidgroundD
+	global.__objectDepths[21] = 1; // oRoom03MidgroundD2
+	global.__objectDepths[22] = 0; // oRoom04
+	global.__objectDepths[23] = 0; // oRoom04D
+	global.__objectDepths[24] = 0; // oRoom04Foreground
+	global.__objectDepths[25] = 0; // oRoom04Foreground2
+	global.__objectDepths[26] = 0; // oRoom04Midground
+	global.__objectDepths[27] = 0; // oRoom04Midground2
+	global.__objectDepths[28] = 1; // oRoom04ForegroundD
+	global.__objectDepths[29] = 1; // oRoom04ForegroundD2
+	global.__objectDepths[30] = 1; // oRoom04MidgroundD
+	global.__objectDepths[31] = 1; // oRoom04MidgroundD2
+	global.__objectDepths[32] = 0; // oRoom05
+	global.__objectDepths[33] = 0; // oRoom05D
+	global.__objectDepths[34] = 1; // oRoom05Foreground
+	global.__objectDepths[35] = 1; // oRoom05Midground
+	global.__objectDepths[36] = 1; // oRoom05ForegroundD
+	global.__objectDepths[37] = 1; // oRoom05MidgroundD
+	global.__objectDepths[38] = 0; // oRoom06
+	global.__objectDepths[39] = 1; // oRoom06Foreground
+	global.__objectDepths[40] = 1; // oRoom06Foreground2
+	global.__objectDepths[41] = 1; // oRoom06Foreground3
+	global.__objectDepths[42] = 1; // oRoom06Midground
+	global.__objectDepths[43] = 0; // oFountBlue
+	global.__objectDepths[44] = 0; // oFountPink
+	global.__objectDepths[45] = 0; // oFountYellow
+	global.__objectDepths[46] = 0; // oFountGreen
+	global.__objectDepths[47] = 0; // oFountPurple
+	global.__objectDepths[48] = 0; // oStoplightLeft
+	global.__objectDepths[49] = 0; // oStoplightRight
+	global.__objectDepths[50] = 0; // oCar
+	global.__objectDepths[51] = 0; // oCarForeground
+	global.__objectDepths[52] = 0; // oCarMidground
+	global.__objectDepths[53] = 0; // oBusForeground
+	global.__objectDepths[54] = 0; // oBusMidground
+	global.__objectDepths[55] = 0; // oWaveForeground
+	global.__objectDepths[56] = 0; // oGrassMidground
+	global.__objectDepths[57] = 0; // oGameInit
+	global.__objectDepths[58] = 0; // oRoom
+	global.__objectDepths[59] = 0; // oCheat
+	global.__objectDepths[60] = -100; // oPlayer
+	global.__objectDepths[61] = -100; // oPlayerStick
+	global.__objectDepths[62] = -100; // oPlayerBalloon
+	global.__objectDepths[63] = 0; // oSolid
+	global.__objectDepths[64] = 0; // oSolidNot
+	global.__objectDepths[65] = -1; // oDoor
+	global.__objectDepths[66] = -1; // oDoorEnter
+	global.__objectDepths[67] = -1; // oDoorEnterUpdown
+	global.__objectDepths[68] = -1; // oDoorExit
+	global.__objectDepths[69] = -1; // oDoorExitUpdown
+	global.__objectDepths[70] = 0; // oStarForeground
+	global.__objectDepths[71] = 0; // oStarMidground
+	global.__objectDepths[72] = 0; // oChest
+	global.__objectDepths[73] = 0; // oFadeIn
+	global.__objectDepths[74] = 0; // oFadeOut
+	global.__objectDepths[75] = 0; // oFreezeInput
+	global.__objectDepths[76] = 0; // oCredits
+	global.__objectDepths[77] = 0; // oSndHellFade
+	global.__objectDepths[78] = 0; // oMusicSadFadeIn
+
+
+	global.__objectNames[0] = "oRoom01";
+	global.__objectNames[1] = "oRoom01D";
+	global.__objectNames[2] = "oRoom01Foreground";
+	global.__objectNames[3] = "oRoom01Midground";
+	global.__objectNames[4] = "oRoom01ForegroundD";
+	global.__objectNames[5] = "oRoom01MidgroundD";
+	global.__objectNames[6] = "oRoom02";
+	global.__objectNames[7] = "oRoom02D";
+	global.__objectNames[8] = "oRoom02Foreground";
+	global.__objectNames[9] = "oRoom02Midground";
+	global.__objectNames[10] = "oRoom02ForegroundD";
+	global.__objectNames[11] = "oRoom02MidgroundD";
+	global.__objectNames[12] = "oRoom03";
+	global.__objectNames[13] = "oRoom03D";
+	global.__objectNames[14] = "oRoom03Foreground";
+	global.__objectNames[15] = "oRoom03Foreground2";
+	global.__objectNames[16] = "oRoom03Midground";
+	global.__objectNames[17] = "oRoom03Midground2";
+	global.__objectNames[18] = "oRoom03ForegroundD";
+	global.__objectNames[19] = "oRoom03ForegroundD2";
+	global.__objectNames[20] = "oRoom03MidgroundD";
+	global.__objectNames[21] = "oRoom03MidgroundD2";
+	global.__objectNames[22] = "oRoom04";
+	global.__objectNames[23] = "oRoom04D";
+	global.__objectNames[24] = "oRoom04Foreground";
+	global.__objectNames[25] = "oRoom04Foreground2";
+	global.__objectNames[26] = "oRoom04Midground";
+	global.__objectNames[27] = "oRoom04Midground2";
+	global.__objectNames[28] = "oRoom04ForegroundD";
+	global.__objectNames[29] = "oRoom04ForegroundD2";
+	global.__objectNames[30] = "oRoom04MidgroundD";
+	global.__objectNames[31] = "oRoom04MidgroundD2";
+	global.__objectNames[32] = "oRoom05";
+	global.__objectNames[33] = "oRoom05D";
+	global.__objectNames[34] = "oRoom05Foreground";
+	global.__objectNames[35] = "oRoom05Midground";
+	global.__objectNames[36] = "oRoom05ForegroundD";
+	global.__objectNames[37] = "oRoom05MidgroundD";
+	global.__objectNames[38] = "oRoom06";
+	global.__objectNames[39] = "oRoom06Foreground";
+	global.__objectNames[40] = "oRoom06Foreground2";
+	global.__objectNames[41] = "oRoom06Foreground3";
+	global.__objectNames[42] = "oRoom06Midground";
+	global.__objectNames[43] = "oFountBlue";
+	global.__objectNames[44] = "oFountPink";
+	global.__objectNames[45] = "oFountYellow";
+	global.__objectNames[46] = "oFountGreen";
+	global.__objectNames[47] = "oFountPurple";
+	global.__objectNames[48] = "oStoplightLeft";
+	global.__objectNames[49] = "oStoplightRight";
+	global.__objectNames[50] = "oCar";
+	global.__objectNames[51] = "oCarForeground";
+	global.__objectNames[52] = "oCarMidground";
+	global.__objectNames[53] = "oBusForeground";
+	global.__objectNames[54] = "oBusMidground";
+	global.__objectNames[55] = "oWaveForeground";
+	global.__objectNames[56] = "oGrassMidground";
+	global.__objectNames[57] = "oGameInit";
+	global.__objectNames[58] = "oRoom";
+	global.__objectNames[59] = "oCheat";
+	global.__objectNames[60] = "oPlayer";
+	global.__objectNames[61] = "oPlayerStick";
+	global.__objectNames[62] = "oPlayerBalloon";
+	global.__objectNames[63] = "oSolid";
+	global.__objectNames[64] = "oSolidNot";
+	global.__objectNames[65] = "oDoor";
+	global.__objectNames[66] = "oDoorEnter";
+	global.__objectNames[67] = "oDoorEnterUpdown";
+	global.__objectNames[68] = "oDoorExit";
+	global.__objectNames[69] = "oDoorExitUpdown";
+	global.__objectNames[70] = "oStarForeground";
+	global.__objectNames[71] = "oStarMidground";
+	global.__objectNames[72] = "oChest";
+	global.__objectNames[73] = "oFadeIn";
+	global.__objectNames[74] = "oFadeOut";
+	global.__objectNames[75] = "oFreezeInput";
+	global.__objectNames[76] = "oCredits";
+	global.__objectNames[77] = "oSndHellFade";
+	global.__objectNames[78] = "oMusicSadFadeIn";
+
+
+	// create another array that has the correct entries
+	var len = array_length_1d(global.__objectDepths);
+	global.__objectID2Depth = [];
+	for( var i=0; i<len; ++i ) {
+		var objID = asset_get_index( global.__objectNames[i] );
+		if (objID >= 0) {
+			global.__objectID2Depth[ objID ] = global.__objectDepths[i];
+		} // end if
+	} // end for
+
+
+}

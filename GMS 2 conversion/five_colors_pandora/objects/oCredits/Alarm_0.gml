@@ -1,0 +1,1 @@
+canQuit = true;
