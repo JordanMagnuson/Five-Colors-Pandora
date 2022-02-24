@@ -1,4 +1,8 @@
 {
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -16,20 +20,16 @@
   "For3D": false,
   "width": 70,
   "height": 40,
-  "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
-  },
   "swatchColours": null,
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"ad7cf28d-e834-447b-b620-3acfecdd4a88","path":"sprites/sBus/sBus.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ad7cf28d-e834-447b-b620-3acfecdd4a88","path":"sprites/sBus/sBus.yy",},"LayerId":{"name":"9de2b813-e3e4-4d97-a4ee-6a30012aee15","path":"sprites/sBus/sBus.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sBus","path":"sprites/sBus/sBus.yy",},"resourceVersion":"1.0","name":"ad7cf28d-e834-447b-b620-3acfecdd4a88","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9db5661e-fa7c-4ae9-8b0d-53ca95e182d7","path":"sprites/sBus/sBus.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9db5661e-fa7c-4ae9-8b0d-53ca95e182d7","path":"sprites/sBus/sBus.yy",},"LayerId":{"name":"9de2b813-e3e4-4d97-a4ee-6a30012aee15","path":"sprites/sBus/sBus.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sBus","path":"sprites/sBus/sBus.yy",},"resourceVersion":"1.0","name":"9db5661e-fa7c-4ae9-8b0d-53ca95e182d7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0362df9b-b13a-4e1c-927b-256e5915b4a1","path":"sprites/sBus/sBus.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0362df9b-b13a-4e1c-927b-256e5915b4a1","path":"sprites/sBus/sBus.yy",},"LayerId":{"name":"a22ba612-bd39-4ade-964c-6b4024caf1de","path":"sprites/sBus/sBus.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sBus","path":"sprites/sBus/sBus.yy",},"resourceVersion":"1.0","name":"0362df9b-b13a-4e1c-927b-256e5915b4a1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3135c0e9-868e-49c2-8c03-e7c1098f2127","path":"sprites/sBus/sBus.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3135c0e9-868e-49c2-8c03-e7c1098f2127","path":"sprites/sBus/sBus.yy",},"LayerId":{"name":"a22ba612-bd39-4ade-964c-6b4024caf1de","path":"sprites/sBus/sBus.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sBus","path":"sprites/sBus/sBus.yy",},"resourceVersion":"1.0","name":"3135c0e9-868e-49c2-8c03-e7c1098f2127","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sBus","path":"sprites/sBus/sBus.yy",},
@@ -44,8 +44,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"594c5c82-2050-40f7-bed8-f0ee5f92304f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ad7cf28d-e834-447b-b620-3acfecdd4a88","path":"sprites/sBus/sBus.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"585edd32-4fce-4430-abe6-20ac68653646","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9db5661e-fa7c-4ae9-8b0d-53ca95e182d7","path":"sprites/sBus/sBus.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"bb1d1e08-d63e-4ac7-98f7-5dd14f15cca6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0362df9b-b13a-4e1c-927b-256e5915b4a1","path":"sprites/sBus/sBus.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e49ba1a4-0d53-47e2-8a19-a50e763cd771","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3135c0e9-868e-49c2-8c03-e7c1098f2127","path":"sprites/sBus/sBus.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": {"x":0.0,"y":0.0,},
@@ -69,7 +69,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9de2b813-e3e4-4d97-a4ee-6a30012aee15","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a22ba612-bd39-4ade-964c-6b4024caf1de","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

@@ -1,4 +1,8 @@
 {
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -16,17 +20,13 @@
   "For3D": false,
   "width": 20,
   "height": 70,
-  "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
-  },
   "swatchColours": null,
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"37e61afe-d52f-426e-a37e-0ad814d23ccc","path":"sprites/sStoplightRight/sStoplightRight.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"37e61afe-d52f-426e-a37e-0ad814d23ccc","path":"sprites/sStoplightRight/sStoplightRight.yy",},"LayerId":{"name":"d6ebebbe-1085-4022-9c3b-d03484363949","path":"sprites/sStoplightRight/sStoplightRight.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sStoplightRight","path":"sprites/sStoplightRight/sStoplightRight.yy",},"resourceVersion":"1.0","name":"37e61afe-d52f-426e-a37e-0ad814d23ccc","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"4305847f-f0a0-4cc8-8b1f-af91360e27cf","path":"sprites/sStoplightRight/sStoplightRight.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"4305847f-f0a0-4cc8-8b1f-af91360e27cf","path":"sprites/sStoplightRight/sStoplightRight.yy",},"LayerId":{"name":"c7917b53-4211-4bfe-a78c-1c358c91dd5a","path":"sprites/sStoplightRight/sStoplightRight.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sStoplightRight","path":"sprites/sStoplightRight/sStoplightRight.yy",},"resourceVersion":"1.0","name":"4305847f-f0a0-4cc8-8b1f-af91360e27cf","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sStoplightRight","path":"sprites/sStoplightRight/sStoplightRight.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"920fee27-85b3-444d-b91c-3fbb7eb84fa2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"37e61afe-d52f-426e-a37e-0ad814d23ccc","path":"sprites/sStoplightRight/sStoplightRight.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"fa15cfd2-cae9-48f8-ba9c-ce761a9fe501","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4305847f-f0a0-4cc8-8b1f-af91360e27cf","path":"sprites/sStoplightRight/sStoplightRight.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": {"x":0.0,"y":0.0,},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d6ebebbe-1085-4022-9c3b-d03484363949","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c7917b53-4211-4bfe-a78c-1c358c91dd5a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

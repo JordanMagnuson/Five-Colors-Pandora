@@ -175,7 +175,8 @@
     {"id":{"name":"room06","path":"rooms/room06/room06.yy",},"order":23,},
     {"id":{"name":"roomCredits","path":"rooms/roomCredits/roomCredits.yy",},"order":25,},
     {"id":{"name":"notes","path":"notes/notes/notes.yy",},"order":1,},
-    {"id":{"name":"compatibility_report_240222_927262726","path":"notes/compatibility_report_240222_927262726/compatibility_report_240222_927262726.yy",},"order":3,},
+    {"id":{"name":"compatibility_report_240222_1033333333","path":"notes/compatibility_report_240222_1033333333/compatibility_report_240222_1033333333.yy",},"order":3,},
+    {"id":{"name":"SuperSound_v1","path":"extensions/SuperSound_v1/SuperSound_v1.yy",},"order":1,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
