@@ -1,3 +1,4 @@
+/*
 if (global.roomDirection == global.BACKWARD)
 {
   if (SS_IsSoundPlaying(global.sndHell))
@@ -13,6 +14,7 @@ if (global.roomDirection == global.BACKWARD)
       SS_LoopSound(global.musicNebulae);  
   }
 }
+*/
 
 if (global.destroyedRoom05)
   room_goto(room05D);

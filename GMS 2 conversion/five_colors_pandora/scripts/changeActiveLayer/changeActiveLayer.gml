@@ -23,7 +23,7 @@ function changeActiveLayer() {
 	    break;
 	  with(iii)
 	  {
-	    if variable_local_exists("layer")
+	    if variable_global_exists("layer") //before was: variable_local_exists("layer")
 	    {
 	      if (layer == global.activeLayer)
 	      {
