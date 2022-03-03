@@ -9,7 +9,21 @@ function roomCreate() {
 	  alarm[1] = 5; //alarm[1] tells room to check for player collision with chest
 	}
 
+	//instance_create(0,0, oPlayerStick);
+
 	//Make sure player is correct morph
+	switch(global.morphIndex)
+	{
+		case global.STICK:
+			instance_create(0,0, oPlayerStick);
+			//with(oPlayerStick) instance_destroy();
+			break;
+		case global.BALLOON:
+			instance_create(0,0, oPlayerBalloon);
+			//with(oPlayerBalloon) instance_destroy();
+			break;
+	}
+
 	/*
 	switch (global.morphIndex)
 	{

@@ -8,4 +8,4 @@ if (global.roomDirection == global.FORWARD)
 }
 */
 
-action_set_alarm(1, 0);
+alarm_set(1, 0);

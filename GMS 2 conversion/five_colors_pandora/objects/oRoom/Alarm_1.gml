@@ -1,4 +1,4 @@
-action_set_alarm(5, 1);
+alarm_set(5, 1);
 
   with(oChest)
   {
