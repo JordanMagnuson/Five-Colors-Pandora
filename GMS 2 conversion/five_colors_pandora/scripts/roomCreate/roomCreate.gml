@@ -8,9 +8,10 @@ function roomCreate() {
 	  if (global.playerColor == oChest.color)
 	  alarm[1] = 5; //alarm[1] tells room to check for player collision with chest
 	}
-
+	//show_debug_message("roomCreate PLAYERSTICK");
 	//instance_create(0,0, oPlayerStick);
 
+	/*
 	//Make sure player is correct morph
 	switch(global.morphIndex)
 	{
@@ -23,6 +24,7 @@ function roomCreate() {
 			//with(oPlayerStick) instance_destroy();
 			break;
 	}
+	*/
 
 	/*
 	switch (global.morphIndex)

@@ -1,4 +1,5 @@
 function playerCreate() {
+	//show_debug_message("PLAYERCREATE")
 	//Constants - Stick
 	STICK_XVEL_MAX = 12;
 	STICK_YVEL_MAX = 20;
