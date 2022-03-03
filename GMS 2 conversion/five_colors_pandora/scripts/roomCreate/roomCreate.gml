@@ -16,11 +16,11 @@ function roomCreate() {
 	{
 		case global.STICK:
 			instance_create(0,0, oPlayerStick);
-			//with(oPlayerStick) instance_destroy();
+			//with(oPlayerBalloon) instance_destroy();
 			break;
 		case global.BALLOON:
 			instance_create(0,0, oPlayerBalloon);
-			//with(oPlayerBalloon) instance_destroy();
+			//with(oPlayerStick) instance_destroy();
 			break;
 	}
 

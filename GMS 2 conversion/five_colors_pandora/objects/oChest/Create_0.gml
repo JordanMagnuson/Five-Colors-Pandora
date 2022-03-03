@@ -1,1 +1,2 @@
-alarm_set(2, 0);
+color = c_blue;
+alarm_set(0, 2);

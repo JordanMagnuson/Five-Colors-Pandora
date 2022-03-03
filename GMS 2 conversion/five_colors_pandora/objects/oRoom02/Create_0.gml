@@ -7,4 +7,7 @@ if (global.destroyedRoom02)
 //  SS_LoopSound(global.musicNebulae);
 //}
 
-action_set_alarm(1, 0);
+//action_set_alarm(1, 0);
+alarm_set(1,0);
+previousRoom = room01;
+nextRoom = room03;

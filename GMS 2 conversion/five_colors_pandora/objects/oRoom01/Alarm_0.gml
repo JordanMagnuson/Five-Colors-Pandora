@@ -1,4 +1,4 @@
-nextRoom = room02;
+//nextRoom = room02;
 
 global.FOREGROUND_GRAV = 3;
 global.MIDGROUND_GRAV = 3;
