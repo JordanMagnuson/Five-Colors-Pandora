@@ -1,5 +1,5 @@
-previousRoom = room01;
-nextRoom = room03;
+oRoom.previousRoom = room01;
+oRoom.nextRoom = room03;
 
 global.FOREGROUND_GRAV = 3;
 global.MIDGROUND_GRAV = 3;
