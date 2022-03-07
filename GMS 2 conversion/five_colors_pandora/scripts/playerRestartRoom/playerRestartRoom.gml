@@ -18,7 +18,7 @@ function playerRestartRoom() {
 	  y = oDoorExit.y + 50;  
 	}  
 
-	//Change active layer to foreground
+	//Change active myLayer to foreground
 	global.activeLayer = global.FOREGROUND;
 	changeActiveLayer();  
 

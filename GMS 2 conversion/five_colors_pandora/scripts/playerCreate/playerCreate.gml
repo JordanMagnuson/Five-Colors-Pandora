@@ -44,7 +44,7 @@ function playerCreate() {
 	angleVel = 0;
 	LEFT_BOUNDS = 0;
 	RIGHT_BOUNDS = room_width - sprite_width;
-	layer = global.activeLayer;
+	myLayer = global.activeLayer;
 	facing = RIGHT;
 	successfulMorph = 0;
 

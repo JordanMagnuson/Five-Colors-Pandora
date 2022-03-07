@@ -1,1 +1,1 @@
-layer = global.MIDGROUND;
+myLayer = global.MIDGROUND;

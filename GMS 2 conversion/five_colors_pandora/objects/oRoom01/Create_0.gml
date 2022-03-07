@@ -3,7 +3,7 @@ if (global.destroyedRoom01)
   
 if (global.roomDirection == global.FORWARD)
 {
-  SS_LoopSound(global.musicNebulae);
+ // SS_LoopSound(global.musicNebulae);
 }
 
 action_set_alarm(1, 0);

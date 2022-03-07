@@ -7,6 +7,6 @@ global.MIDGROUND_GRAV = 3;
 global.FOREGROUND_COLOR = $606060;
 global.MIDGROUND_COLOR = $606060;
 
-oChest.layer = global.MIDGROUND;
+oChest.myLayer = global.MIDGROUND;
 oChest.color = global.COLOR_PINK;
 script_execute(roomCreate,0,0,0,0,0);

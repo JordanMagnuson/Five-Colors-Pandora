@@ -1,4 +1,4 @@
-if (layer == other.layer)
+if (myLayer == other.myLayer)
 {
   with(other)
   {

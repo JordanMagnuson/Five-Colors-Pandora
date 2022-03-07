@@ -1,6 +1,6 @@
 function changeActiveLayer() {
-	//Change player to active layer
-	oPlayer.layer = global.activeLayer;
+	//Change player to active myLayer
+	oPlayer.myLayer = global.activeLayer;
 
 	//Change gravity
 	switch (global.activeLayer)
@@ -15,7 +15,7 @@ function changeActiveLayer() {
 	    break;
 	}
 
-	//Change objects to correct layer
+	//Change objects to correct myLayer
 	for (i=0; i<instance_count; i+=1)
 	{
 	  iii = instance_id_get( i );
@@ -23,9 +23,9 @@ function changeActiveLayer() {
 	    break;
 	  with(iii)
 	  {
-	    if variable_local_exists("layer")
+	    if variable_instance_exists(self, "myLayer")
 	    {
-	      if (layer == global.activeLayer)
+	      if (myLayer == global.activeLayer)
 	      {
 	        image_alpha = 1;
 	        depth = 0;   
@@ -72,8 +72,8 @@ function changeActiveLayer() {
 	          case oRoom06Foreground2:
 	          case oRoom06Foreground3:
 	          case oRoom06Midground:                                                             
-	            object_set_parent(object_index,oSolid);
-	            instance_change(object_index,true);    
+	            //object_set_parent(object_index,oSolid); UNSURE OF WHAT THIS LINE IS TRYING TO DO
+	            instance_change(object_index,true); //instance change did not seem to work in terrorist killer   
 	            break;  
 	          default:
 	            break;
@@ -127,7 +127,7 @@ function changeActiveLayer() {
 	          case oRoom06Foreground3:
 	          case oRoom06Midground:                      
 	            depth = 11;             
-	            object_set_parent(object_index,oSolidNot);
+	            //object_set_parent(object_index,oSolidNot); SAME AS ABOVE
 	            instance_change(object_index,true);   
 	            break;  
 	          default:

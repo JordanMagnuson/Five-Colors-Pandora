@@ -1,10 +1,10 @@
 function gameInit() {
 	//SuperSound
-	SS_Init();
-	global.musicNebulae = SS_LoadSound("music/gurdonark_-_William_and_Caroline_(Nebulae).ogg",0);
-	global.musicSad = SS_LoadSound("music/Long Note Four - incompetech_trimmed.ogg",0);
-	global.musicDeath = SS_LoadSound("music/Long Note Four - incompetech_start.ogg",0);
-	global.sndHell = SS_LoadSound("music/39222__amliebsch__voice_from_hell.ogg",0);
+	//SS_Init();
+	//global.musicNebulae = SS_LoadSound("music/gurdonark_-_William_and_Caroline_(Nebulae).ogg",0);
+	//global.musicSad = SS_LoadSound("music/Long Note Four - incompetech_trimmed.ogg",0);
+	//global.musicDeath = SS_LoadSound("music/Long Note Four - incompetech_start.ogg",0);
+	//global.sndHell = SS_LoadSound("music/39222__amliebsch__voice_from_hell.ogg",0);
 
 	//Sound controllers
 	global.firstRoom02 = true;

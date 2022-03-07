@@ -5,7 +5,7 @@ function playerStickStep() {
 	  playerRestartRoom();
 	}
 
-	playerControls();
+	playerControls(); //collects input
 
 	playerStickVelocity();
 

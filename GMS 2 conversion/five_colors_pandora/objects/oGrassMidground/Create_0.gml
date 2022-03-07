@@ -1,2 +1,2 @@
 image_speed = 0.2;
-layer = global.MIDGROUND;
+myLayer = global.MIDGROUND;

@@ -2,7 +2,7 @@ action_set_alarm(5, 1);
 
   with(oChest)
   {
-    if (place_meeting(x,y,oPlayer) && layer == oPlayer.layer)
+    if (place_meeting(x,y,oPlayer) && myLayer == oPlayer.myLayer)
     { 
       switch(oChest.color)
       {

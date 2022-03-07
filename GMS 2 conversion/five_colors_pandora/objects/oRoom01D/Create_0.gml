@@ -1,6 +1,6 @@
 if (global.justDestroyed)
 {
-  SS_PlaySound(global.musicDeath);
+ // SS_PlaySound(global.musicDeath);
   instance_create(x,y,oFadeIn);
 }
 

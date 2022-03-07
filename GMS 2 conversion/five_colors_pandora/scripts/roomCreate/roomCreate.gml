@@ -25,7 +25,7 @@ function roomCreate() {
 	// Place player at correct door, depending on direction traveling
 	if (global.justDestroyed)
 	{
-	  global.activeLayer = oChest.layer;
+	  global.activeLayer = oChest.myLayer;
 	  oPlayer.x = oChest.x+oChest.sprite_width/2;
 	  oPlayer.y = oChest.y+oChest.sprite_height/2;
 	  global.justDestroyed = false;

@@ -1,2 +1,2 @@
-layer = global.FOREGROUND
+myLayer = global.FOREGROUND
 action_set_alarm(5, 0);

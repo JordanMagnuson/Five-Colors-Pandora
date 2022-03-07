@@ -1,1 +1,1 @@
-layer = global.FOREGROUND;
+myLayer = global.FOREGROUND;
