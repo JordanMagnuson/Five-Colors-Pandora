@@ -48,6 +48,14 @@ function playerCreate() {
 	facing = RIGHT;
 	successfulMorph = 0;
 
+	kRight = 0;
+	kLeft = 0;
+	kUp = 0;
+	kDown = 0;
+	kJump = 0;
+	kMorphBalloon = 0;
+	kMorphStick = 0;
+	kMorph = 0;
 
 
 }
