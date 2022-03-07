@@ -5,133 +5,133 @@ Converted string - line 5: 'music/Long Note Four - incompetech_start.ogg' -> "mu
 Converted string - line 6: 'music/39222__amliebsch__voice_from_hell.ogg' -> "music/39222__amliebsch__voice_from_hell.ogg"
 
 Converting GML script: ${project_dir}\scripts\playerCreate\playerCreate.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\scripts\roomCreate\roomCreate.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\scripts\changeActiveLayer\changeActiveLayer.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 Converted builtin - line 20: instance_id[i] -> instance_id_get( i )
-Converted string - line 25: 'myLayer' -> "myLayer"
+Converted string - line 25: 'layer' -> "layer"
 
 Converting GML script: ${project_dir}\objects\oRoom01\Alarm_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom01D\Alarm_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom01Foreground\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom01Midground\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom01ForegroundD\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom01MidgroundD\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom02\Alarm_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom02D\Alarm_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom02Foreground\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom02Midground\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom02ForegroundD\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom02MidgroundD\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom03\Alarm_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom03D\Alarm_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom03Foreground\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom03Foreground2\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom03Midground\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom03Midground2\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom03ForegroundD\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom03ForegroundD2\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom03MidgroundD\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom03MidgroundD2\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom04\Alarm_2.gml
 Converted builtin - line 2: view_vborder[0] = 10 -> __view_set( e__VW.VBorder, 0, 10 )
 Converted builtin - line 4: view_vborder[0] = 100 -> __view_set( e__VW.VBorder, 0, 100 )
 
 Converting GML script: ${project_dir}\objects\oRoom04\Alarm_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom04D\Alarm_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom04Foreground\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom04Foreground2\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom04Midground\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom04Midground2\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom04ForegroundD\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom04ForegroundD2\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom04MidgroundD\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom04MidgroundD2\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom05\Alarm_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom05D\Alarm_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom05Foreground\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom05Midground\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom05ForegroundD\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom05MidgroundD\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom06\Alarm_1.gml
 Converted builtin - line 3: view_yview[0] = 0 -> __view_set( e__VW.YView, 0, 0 )
@@ -142,40 +142,40 @@ Converted builtin - line 13: view_yview[0] = 0 -> __view_set( e__VW.YView, 0, 0 
 Converted builtin - line 17: view_yview[0] = 200 -> __view_set( e__VW.YView, 0, 200 )
 
 Converting GML script: ${project_dir}\objects\oRoom06Foreground\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom06Foreground2\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom06Foreground3\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom06Midground\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oCar\Collision_da876b2a-0d09-4693-8dd3-967f78ff10f9.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oCarForeground\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oCarMidground\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oBusForeground\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oBusMidground\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oWaveForeground\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oGrassMidground\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oRoom\Alarm_1.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oCheat\Keyboard_80.gml
 Converted string - line 4: 'previousRoom' -> "previousRoom"
@@ -184,28 +184,28 @@ Converting GML script: ${project_dir}\objects\oCheat\Keyboard_78.gml
 Converted string - line 4: 'nextRoom' -> "nextRoom"
 
 Converting GML script: ${project_dir}\objects\oDoorEnter\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oDoorEnter\Alarm_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oDoorExit\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oDoorExit\Alarm_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oStarForeground\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oStarForeground\Step_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oStarMidground\Create_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Converting GML script: ${project_dir}\objects\oStarMidground\Step_0.gml
-Error: variable 'myLayer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
 
 Game speed set to 30
 Added compatibility script 'action/action_move.gml'
