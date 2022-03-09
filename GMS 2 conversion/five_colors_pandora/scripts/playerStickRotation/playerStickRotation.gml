@@ -3,19 +3,26 @@ function playerStickRotation() {
 
 	if (image_angle != 0)    
 	{
-	  if (image_angle > 10)
-	    image_angle -= 9;
-	  else if (image_angle < -10)
-	    image_angle += 9;
-	  else 
-	    image_angle = 0;
-    
-	  if (!place_meeting(x, y + 1*gravSign, oSolid))
-	    y += 1*gravSign;
-	  if (place_meeting(x, y, oSolid))
-	    y -= 1*gravSign;        
+		if (image_angle > 10)
+		    image_angle -= 9;
+		else if (image_angle < -10)
+		    image_angle += 9;
+		else 
+		    image_angle = 0;
+	    if(global.FOREGROUND_ACTIVE){
+			if (!place_meeting(x, y + 1*gravSign, oForeground))
+			    y += 1*gravSign;
+			if (place_meeting(x, y, oForeground))
+			    y -= 1*gravSign;        
+	
+		}
+		else{
+			if (!place_meeting(x, y + 1*gravSign, oMidground))
+			    y += 1*gravSign;
+			if (place_meeting(x, y, oMidground))
+			    y -= 1*gravSign;        
+			}
 	}
-
 
 
 }

@@ -10,36 +10,72 @@ function playerUnstick() {
 	  case oPlayerStick:
 	    for (i=0; i<20; i+=1)
 	    {
-	      if (collision_rectangle(x-5,y-15,x+4,y-5, oSolid,true,false) && collision_rectangle(x-5,y+5,x+4,y+14, oSolid,true,false)) 
-	      {
-	        //Collision with top and bottom: go left or right (must be in wall)
-	        x = x - 1*gravSign;
-	      }
-	      else if (collision_rectangle(x-5,y-15,x+4,y-5, oSolid,true,false)) 
-	      {
-	        //Collision with top
-	        y = y + 1;
-	      }
-	      else if (collision_rectangle(x-5,y+5,x+4,y+14, oSolid,true,false)) 
-	      {
-	        //Collision with bottom
-	        y = y - 1;
-	      }                 
-	      else
-	        break;
+			if(global.FOREGROUND_ACTIVE){
+			    if (collision_rectangle(x-5,y-15,x+4,y-5, oForeground,true,false) && collision_rectangle(x-5,y+5,x+4,y+14, oForeground,true,false)) 
+			    {
+			      //Collision with top and bottom: go left or right (must be in wall)
+			      x = x - 1*gravSign;
+				  
+			    }
+			    else if (collision_rectangle(x-5,y-15,x+4,y-5, oForeground,true,false)) 
+			    {
+			      //Collision with top
+			      y = y + 1;
+			    }
+			    else if (collision_rectangle(x-5,y+5,x+4,y+14, oForeground,true,false)) 
+			    {
+			      //Collision with bottom
+			      y = y - 1;
+				  
+			    }                 
+			    else
+					break;
+			}
+			else{
+				if (collision_rectangle(x-5,y-15,x+4,y-5, oMidground,true,false) && collision_rectangle(x-5,y+5,x+4,y+14, oMidground,true,false)) 
+			    {
+			      //Collision with top and bottom: go left or right (must be in wall)
+			      x = x - 1*gravSign;
+				  show_debug_message("playerUnstick line 39: x = x - 1*gravSign")
+			    }
+			    else if (collision_rectangle(x-5,y-15,x+4,y-5, oMidground,true,false)) 
+			    {
+			      //Collision with top
+			      y = y + 1;
+			    }
+			    else if (collision_rectangle(x-5,y+5,x+4,y+14, oMidground,true,false)) 
+			    {
+			      //Collision with bottom
+			      y = y - 1;
+			    }                 
+			    else
+					break;
+			}
 	    }
 	    break;
 	  case oPlayerBalloon:    
 	    for (i=0; i<20; i+=1)
 	    {
-	      topLeft = collision_rectangle(x-15,y-15,x-5,y-5, oSolid,true,false);
-	      topMiddle = collision_rectangle(x-5,y-15,x+5,y-5, oSolid,true,false);
-	      topRight = collision_rectangle(x+5,y-15,x+14,y-5, oSolid,true,false);
-	      bottomLeft = collision_rectangle(x-15,y+5,x-5,y+14, oSolid,true,false);
-	      bottomMiddle = collision_rectangle(x-5,y+5,x+5,y+14, oSolid,true,false);
-	      bottomRight = collision_rectangle(x+5,y+5,x+14,y+14, oSolid,true,false);
-	      leftMiddle = collision_rectangle(x-15,y-5,x-5,y+5, oSolid,true,false);
-	      rightMiddle = collision_rectangle(x+5,y-5,x+14,y+5, oSolid,true,false);
+			if(global.FOREGROUND_ACTIVE){
+			    topLeft = collision_rectangle(x-15,y-15,x-5,y-5, oForeground,true,false);
+			    topMiddle = collision_rectangle(x-5,y-15,x+5,y-5, oForeground,true,false);
+			    topRight = collision_rectangle(x+5,y-15,x+14,y-5, oForeground,true,false);
+			    bottomLeft = collision_rectangle(x-15,y+5,x-5,y+14, oForeground,true,false);
+			    bottomMiddle = collision_rectangle(x-5,y+5,x+5,y+14, oForeground,true,false);
+				bottomRight = collision_rectangle(x+5,y+5,x+14,y+14, oForeground,true,false);
+			    leftMiddle = collision_rectangle(x-15,y-5,x-5,y+5, oForeground,true,false);
+			    rightMiddle = collision_rectangle(x+5,y-5,x+14,y+5, oForeground,true,false);
+			}
+			else{
+			    topLeft = collision_rectangle(x-15,y-15,x-5,y-5, oMidground,true,false);
+			    topMiddle = collision_rectangle(x-5,y-15,x+5,y-5, oMidground,true,false);
+			    topRight = collision_rectangle(x+5,y-15,x+14,y-5, oMidground,true,false);
+			    bottomLeft = collision_rectangle(x-15,y+5,x-5,y+14, oMidground,true,false);
+			    bottomMiddle = collision_rectangle(x-5,y+5,x+5,y+14, oMidground,true,false);
+				bottomRight = collision_rectangle(x+5,y+5,x+14,y+14, oMidground,true,false);
+			    leftMiddle = collision_rectangle(x-15,y-5,x-5,y+5, oMidground,true,false);
+			    rightMiddle = collision_rectangle(x+5,y-5,x+14,y+5, oMidground,true,false);
+			}
       
 	      if (topLeft)
 	      {

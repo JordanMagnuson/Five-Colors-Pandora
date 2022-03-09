@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "oSolid",
-    "path": "objects/oSolid/oSolid.yy",
+    "name": "oMidground",
+    "path": "objects/oMidground/oMidground.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

@@ -9,45 +9,87 @@ function playerStickPosition() {
 	vfrac -= vint;
 	h = sign(hint);
 	v = sign(vint);
-	onGround = place_meeting(x, y + 1*gravSign, oSolid);
+	if(global.FOREGROUND_ACTIVE)
+		onGround = place_meeting(x, y + 1*gravSign, oForeground);
+	else
+		onGround = place_meeting(x, y + 1*gravSign, oMidground);
+	
+	if(global.FOREGROUND_ACTIVE){
+		repeat (abs(hint))
+		{
+		    //Stop if bump into solid
+		    if (place_meeting(x + h, y, oForeground))
+		    {
+		        xVel = 0;
+		        break;
+		    }
+		    //Stop if hit edge of screen
+		    else if (x + h <= 0 || x + h >= room_width)
+		    {
+		      xVel = 0;
+		      break;
+		    }    
+		    else
+		    {
+		      x += h;
+		    }
+		}
 
-	repeat (abs(hint))
-	{
-	    //Stop if bump into solid
-	    if (place_meeting(x + h, y, oSolid))
-	    {
-	        xVel = 0;
-	        break;
-	    }
-	    //Stop if hit edge of screen
-	    else if (x + h <= 0 || x + h >= room_width)
-	    {
-	      xVel = 0;
-	      break;
-	    }    
-	    else
-	    {
-	      x += h;
-	    }
+		repeat (abs(vint))
+		{
+		    if (place_meeting(x, y + v, oForeground))
+		    {
+		        yVel = 0;
+		        if (v == 1*gravSign)
+		        {
+		          onGround= true;
+		        }
+		        break;
+		    }
+		    else
+		    {
+		        y += v;
+		    }
+		}
 	}
+	else{	
+		repeat (abs(hint))
+		{
+		    //Stop if bump into solid
+		    if (place_meeting(x + h, y, oMidground))
+		    {
+		        xVel = 0;
+		        break;
+		    }
+		    //Stop if hit edge of screen
+		    else if (x + h <= 0 || x + h >= room_width)
+		    {
+		      xVel = 0;
+		      break;
+		    }    
+		    else
+		    {
+		      x += h;
+		    }
+		}
 
-	repeat (abs(vint))
-	{
-	    if (place_meeting(x, y + v, oSolid))
-	    {
-	        yVel = 0;
-	        if (v == 1*gravSign)
-	        {
-	          onGround= true;
-	        }
-	        break;
-	    }
-	    else
-	    {
-	        y += v;
-	    }
+		repeat (abs(vint))
+		{
+		    if (place_meeting(x, y + v, oMidground))
+		    {
+		        yVel = 0;
+		        if (v == 1*gravSign)
+		        {
+		          onGround= true;
+		        }
+		        break;
+		    }
+		    else
+		    {
+		        y += v;
+		    }
+		}
 	}
-
 
 
 }

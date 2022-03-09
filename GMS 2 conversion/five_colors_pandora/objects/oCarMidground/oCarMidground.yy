@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "oCar",
-    "path": "objects/oCar/oCar.yy",
+    "name": "oMidground",
+    "path": "objects/oMidground/oMidground.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
