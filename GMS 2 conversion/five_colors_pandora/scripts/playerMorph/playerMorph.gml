@@ -2,7 +2,7 @@ function playerMorph() {
 	//If changing to balloon
 	if (global.morphIndex == global.BALLOON && global.canFly && y>0 && y <room_height)
 	{
-		if(global.FOREGROUND_ACTIVE){
+		if(global.activeLayer == 1){
 		  if (!collision_rectangle(x-15,y-15,x+14,y+14,oForeground,true,false))
 		  {
 		    instance_change(oPlayerBalloon,false);

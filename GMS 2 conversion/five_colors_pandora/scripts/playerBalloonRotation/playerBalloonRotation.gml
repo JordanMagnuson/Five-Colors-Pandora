@@ -1,7 +1,7 @@
 function playerBalloonRotation() {
 	gravSign = sign(global.grav);
 
-	if(global.FOREGROUND_ACTIVE){
+	if(global.activeLayer == 1){
 		if (!onGround && !place_meeting(x+facing,y,oForeground))
 		  {
 		  if (rand(5)==0)

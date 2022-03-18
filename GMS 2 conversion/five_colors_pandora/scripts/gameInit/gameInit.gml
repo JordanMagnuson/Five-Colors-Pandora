@@ -55,8 +55,6 @@ function gameInit() {
 
 	global.playerColor = global.COLOR_GRAY;
 
-	global.FOREGROUND_ACTIVE = true;
-
 	room_goto_next();
 
 

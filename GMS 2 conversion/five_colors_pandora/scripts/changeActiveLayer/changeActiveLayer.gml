@@ -23,18 +23,14 @@ function changeActiveLayer() {
 	    break;
 	  with(iii)
 	  {
-		  show_debug_message("global.activelayer: " + string(global.activeLayer))
 	    if variable_instance_exists(self, "myLayer")
 	    {
-		  show_debug_message("myLayer: " + string(myLayer))
 	      if (myLayer == global.activeLayer)
 	      {
 	        image_alpha = 1;
 	        depth = 0;   
 	//        if (object_index != oChest)     
 	//          image_blend = global.FOREGROUND_COLOR;
-			global.FOREGROUND_ACTIVE = true;
-			show_debug_message("Foreground active")
 	      }
 	      else
 	      {
@@ -43,9 +39,6 @@ function changeActiveLayer() {
 	//        if (object_index != oChest)     
 	//          image_blend = global.MIDGROUND_COLOR;                    
 	        depth = 11;             
-
-			global.FOREGROUND_ACTIVE = false;
-			show_debug_message("Midground active")
 	      }
 	    }
 	  } 

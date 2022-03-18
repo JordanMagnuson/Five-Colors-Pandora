@@ -9,4 +9,5 @@ global.MIDGROUND_COLOR = $606060;
 
 oChest.myLayer = global.MIDGROUND;
 oChest.color = global.COLOR_PURPLE;
+
 script_execute(roomCreate,0,0,0,0,0);
