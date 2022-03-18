@@ -9,7 +9,7 @@ function playerStickRotation() {
 		    image_angle += 9;
 		else 
 		    image_angle = 0;
-	    if(global.FOREGROUND_ACTIVE){
+	    if(global.activeLayer == 1){
 			if (!place_meeting(x, y + 1*gravSign, oForeground))
 			    y += 1*gravSign;
 			if (place_meeting(x, y, oForeground))

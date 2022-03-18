@@ -9,12 +9,12 @@ function playerStickPosition() {
 	vfrac -= vint;
 	h = sign(hint);
 	v = sign(vint);
-	if(global.FOREGROUND_ACTIVE)
+	if(global.activeLayer == 1)
 		onGround = place_meeting(x, y + 1*gravSign, oForeground);
 	else
 		onGround = place_meeting(x, y + 1*gravSign, oMidground);
 	
-	if(global.FOREGROUND_ACTIVE){
+	if(global.activeLayer == 1){
 		repeat (abs(hint))
 		{
 		    //Stop if bump into solid

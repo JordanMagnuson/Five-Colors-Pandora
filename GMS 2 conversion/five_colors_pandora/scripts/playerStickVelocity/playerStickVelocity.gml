@@ -4,7 +4,7 @@ function playerStickVelocity() {
 	/**************************************
 	 Y Velocity
 	***************************************/
-	if(global.FOREGROUND_ACTIVE){
+	if(global.activeLayer == 1){
 		if (onGround && kUp) 
 		{
 		  yVel = -1*STICK_JUMP_VEL*gravSign;

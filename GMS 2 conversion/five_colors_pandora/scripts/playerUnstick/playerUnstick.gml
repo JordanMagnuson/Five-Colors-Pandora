@@ -10,7 +10,7 @@ function playerUnstick() {
 	  case oPlayerStick:
 	    for (i=0; i<20; i+=1)
 	    {
-			if(global.FOREGROUND_ACTIVE){
+			if(global.activeLayer == 1){
 			    if (collision_rectangle(x-5,y-15,x+4,y-5, oForeground,true,false) && collision_rectangle(x-5,y+5,x+4,y+14, oForeground,true,false)) 
 			    {
 			      //Collision with top and bottom: go left or right (must be in wall)
@@ -56,7 +56,7 @@ function playerUnstick() {
 	  case oPlayerBalloon:    
 	    for (i=0; i<20; i+=1)
 	    {
-			if(global.FOREGROUND_ACTIVE){
+			if(global.activeLayer == 1){
 			    topLeft = collision_rectangle(x-15,y-15,x-5,y-5, oForeground,true,false);
 			    topMiddle = collision_rectangle(x-5,y-15,x+5,y-5, oForeground,true,false);
 			    topRight = collision_rectangle(x+5,y-15,x+14,y-5, oForeground,true,false);
